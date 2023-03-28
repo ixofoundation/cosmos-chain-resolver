@@ -1,5 +1,5 @@
 {
-	"name": "jambo-chain-sdk",
+	"name": "@ixo/jambo-chain-sdk",
 	"version": "0.0.1",
 	"description": "A mini sdk to fetch and filter chain information",
 	"main": "main/index.js",
