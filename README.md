@@ -1,7 +1,7 @@
-# JAMBO CHAIN SDK
+# COSMOS CHAIN RESOLVER 🔗
 
-![GitHub contributors](https://img.shields.io/github/contributors/ixofoundation/jambo-chain-sdk)
-![GitHub repo size](https://img.shields.io/github/repo-size/ixofoundation/jambo-chain-sdk)
+![GitHub contributors](https://img.shields.io/github/contributors/ixofoundation/cosmos-chain-resolver)
+![GitHub repo size](https://img.shields.io/github/repo-size/ixofoundation/cosmos-chain-resolver)
 ![Twitter Follow](https://img.shields.io/twitter/follow/ixoworld?style=social)
 ![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)
 
@@ -25,14 +25,14 @@ Let us know how we are doing!
 ## 🔨 Install
 
 ```sh
-npm install @ixo/jambo-chain-sdk
+npm install @ixo/cosmos-chain-resolver
 
-yarn add  @ixo/jambo-chain-sdk
+yarn add  @ixo/cosmos-chain-resolver
 ```
 
 ## 💻 Usage
 
-To use the JAMBO chain SDK, you can import the function(s) you want to use and execute it with the appropriate parameters.
+To use the Cosmos Chain Resolver, you can import the function(s) you want to use and execute it with the appropriate parameters.
 
 ```js
 import {
@@ -43,10 +43,10 @@ import {
 	getChainExplorerAsync,
 	getKeplrChainInfoFromRegistryChainInfo,
 	getKeplrChainInfo,
-} from '@ixo/jambo-chain-sdk';
+} from '@ixo/cosmos-chain-resolver';
 ```
 
-The JAMBO chain SDk expose the following functions:
+The Cosmos Chain Resolver SDK expose the following functions:
 
 ### getRegistryChainInfo
 
@@ -107,7 +107,7 @@ This function fetches the keplr chain info for the provided chain id or the chai
 ## 📱 Example
 
 ```ts
-import { getKeplrChainInfo } from '@ixo/jambo-chain-sdk';
+import { getKeplrChainInfo } from '@ixo/cosmos-chain-resolver';
 
 // fetch chain info via chain id
 const ixoKeplrChainInfo = await getKeplrChainInfo('ixo-5');
@@ -117,7 +117,7 @@ const ixoTestnetKeplrChainInfo = await getKeplrChainInfo('impacthub', 'testnet')
 ```
 
 ```ts
-import { getRegistryChainInfo, getKeplrChainInfoFromRegistryChainInfo } from '@ixo/jambo-chain-sdk';
+import { getRegistryChainInfo, getKeplrChainInfoFromRegistryChainInfo } from '@ixo/cosmos-chain-resolver';
 
 // fetch chain info via chain id
 const ixoRegistryChainInfo = await getRegistryChainInfo('impacthub', 'mainnet');

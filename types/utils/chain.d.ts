@@ -5,3 +5,7 @@ export declare const fetchDevnetRegistryChainInfo: (chainName: string) => Promis
 export declare const explorerIsMintscan: (explorer: string) => boolean;
 export declare const explorerIsAtomscan: (explorer: string) => boolean;
 export declare const fetchKeplrChainInfo: (chainName: string) => Promise<KeplrChainInfo>;
+/**
+ * Update the chain id - keplr chain name constants
+ * Run script frequently to stay up to date
+ */
