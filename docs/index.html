@@ -1,4 +1,4 @@
-<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>jambo-chain-sdk</title><meta name="description" content="Documentation for jambo-chain-sdk"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="assets/style.css"/><link rel="stylesheet" href="assets/highlight.css"/><script async src="assets/search.js" id="search-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
+<!DOCTYPE html><html class="default" lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>@ixo/cosmos-chain-resolver</title><meta name="description" content="Documentation for @ixo/cosmos-chain-resolver"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="assets/style.css"/><link rel="stylesheet" href="assets/highlight.css"/><script async src="assets/search.js" id="search-script"></script></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os"</script><header class="tsd-page-toolbar">
 <div class="tsd-toolbar-contents container">
 <div class="table-cell" id="tsd-search" data-base=".">
 <div class="field"><label for="tsd-search-field" class="tsd-widget tsd-toolbar-icon search no-caption"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M15.7824 13.833L12.6666 10.7177C12.5259 10.5771 12.3353 10.499 12.1353 10.499H11.6259C12.4884 9.39596 13.001 8.00859 13.001 6.49937C13.001 2.90909 10.0914 0 6.50048 0C2.90959 0 0 2.90909 0 6.49937C0 10.0896 2.90959 12.9987 6.50048 12.9987C8.00996 12.9987 9.39756 12.4863 10.5008 11.6239V12.1332C10.5008 12.3332 10.5789 12.5238 10.7195 12.6644L13.8354 15.7797C14.1292 16.0734 14.6042 16.0734 14.8948 15.7797L15.7793 14.8954C16.0731 14.6017 16.0731 14.1267 15.7824 13.833ZM6.50048 10.499C4.29094 10.499 2.50018 8.71165 2.50018 6.49937C2.50018 4.29021 4.28781 2.49976 6.50048 2.49976C8.71001 2.49976 10.5008 4.28708 10.5008 6.49937C10.5008 8.70852 8.71314 10.499 6.50048 10.499Z" fill="var(--color-text)"></path></svg></label><input type="text" id="tsd-search-field" aria-label="Search"/></div>
@@ -6,16 +6,111 @@
 <div id="tsd-toolbar-links"></div></div>
 <ul class="results">
 <li class="state loading">Preparing search index...</li>
-<li class="state failure">The search index is not available</li></ul><a href="index.html" class="title">jambo-chain-sdk</a></div>
+<li class="state failure">The search index is not available</li></ul><a href="index.html" class="title">@ixo/cosmos-chain-resolver</a></div>
 <div class="table-cell" id="tsd-widgets"><a href="#" class="tsd-widget tsd-toolbar-icon menu no-caption" data-toggle="menu" aria-label="Menu"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><rect x="1" y="3" width="14" height="2" fill="var(--color-text)"></rect><rect x="1" y="7" width="14" height="2" fill="var(--color-text)"></rect><rect x="1" y="11" width="14" height="2" fill="var(--color-text)"></rect></svg></a></div></div></header>
 <div class="container container-main">
 <div class="col-8 col-content">
 <div class="tsd-page-title">
-<h2>jambo-chain-sdk</h2></div>
+<h2>@ixo/cosmos-chain-resolver</h2></div>
 <div class="tsd-panel tsd-typography">
-<a href="#jambo-wallet-sdk" id="jambo-wallet-sdk" style="color: inherit; text-decoration: none;">
-  <h1>JAMBO WALLET SDK</h1>
+<a href="#cosmos-chain-resolver-🔗" id="cosmos-chain-resolver-🔗" style="color: inherit; text-decoration: none;">
+  <h1>COSMOS CHAIN RESOLVER 🔗</h1>
 </a>
+<p><img src="https://img.shields.io/github/contributors/ixofoundation/cosmos-chain-resolver" alt="GitHub contributors">
+<img src="https://img.shields.io/github/repo-size/ixofoundation/cosmos-chain-resolver" alt="GitHub repo size">
+<img src="https://img.shields.io/twitter/follow/ixoworld?style=social" alt="Twitter Follow">
+<img src="https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"></p>
+<p><img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="NodeJS"><img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"></p>
+<p align="center">
+  <img  src="assets/images/github_jambo_chain_SDK.png"/>
+</p>
+
+<br />
+
+<h2 align="center">
+    An SDK to fetch and filter chain information
+</h2>
+
+<br />
+
+<p>This repo and product is intentionally managed as Open Source and we aim to use this guide to light our way <a href="https://opensource.guide/">https://opensource.guide/</a>.
+Let us know how we are doing!</p>
+
+<a href="#🔨-install" id="🔨-install" style="color: inherit; text-decoration: none;">
+  <h2>🔨 Install</h2>
+</a>
+<pre><code class="language-sh"><span class="hl-0">npm </span><span class="hl-1">install</span><span class="hl-0"> </span><span class="hl-1">@ixo/cosmos-chain-resolver</span><br/><br/><span class="hl-0">yarn </span><span class="hl-1">add</span><span class="hl-0">  </span><span class="hl-1">@ixo/cosmos-chain-resolver</span>
+</code></pre>
+
+<a href="#💻-usage" id="💻-usage" style="color: inherit; text-decoration: none;">
+  <h2>💻 Usage</h2>
+</a>
+<p>To use the Cosmos Chain Resolver, you can import the function(s) you want to use and execute it with the appropriate parameters.</p>
+<pre><code class="language-js"><span class="hl-2">import</span><span class="hl-0"> {</span><br/><span class="hl-0">    </span><span class="hl-3">getRegistryChainInfo</span><span class="hl-0">,</span><br/><span class="hl-0">    </span><span class="hl-3">getActiveRpcFromRegistryChainInfo</span><span class="hl-0">,</span><br/><span class="hl-0">    </span><span class="hl-3">getActiveRpcFromChainName</span><span class="hl-0">,</span><br/><span class="hl-0">    </span><span class="hl-3">getChainExplorer</span><span class="hl-0">,</span><br/><span class="hl-0">    </span><span class="hl-3">getChainExplorerAsync</span><span class="hl-0">,</span><br/><span class="hl-0">    </span><span class="hl-3">getKeplrChainInfoFromRegistryChainInfo</span><span class="hl-0">,</span><br/><span class="hl-0">    </span><span class="hl-3">getKeplrChainInfo</span><span class="hl-0">,</span><br/><span class="hl-0">} </span><span class="hl-2">from</span><span class="hl-0"> </span><span class="hl-1">&#39;@ixo/cosmos-chain-resolver&#39;</span><span class="hl-0">;</span>
+</code></pre>
+<p>The Cosmos Chain Resolver SDK expose the following functions:</p>
+
+<a href="#getregistrychaininfo" id="getregistrychaininfo" style="color: inherit; text-decoration: none;">
+  <h3>getRegistryChainInfo</h3>
+</a>
+<pre><code class="language-ts"><span class="hl-4">getRegistryChainInfo</span><span class="hl-0">(</span><span class="hl-3">chainName</span><span class="hl-0">: </span><span class="hl-3">string</span><span class="hl-0">, </span><span class="hl-3">chainNetwork</span><span class="hl-0">?: </span><span class="hl-3">ChainNetwork</span><span class="hl-0">): </span><span class="hl-5">Promise</span><span class="hl-0">&lt;</span><span class="hl-3">RegistryChainInfo</span><span class="hl-0">&gt;</span>
+</code></pre>
+<p>This function fetches the chain info for the provided chainName and chainNetwork. If chainNetwork is not provided, it defaults to mainnet.</p>
+
+<a href="#getactiverpcfromregistrychaininfo" id="getactiverpcfromregistrychaininfo" style="color: inherit; text-decoration: none;">
+  <h3>getActiveRpcFromRegistryChainInfo</h3>
+</a>
+<pre><code class="language-ts"><span class="hl-4">getActiveRpcFromRegistryChainInfo</span><span class="hl-0">(</span><span class="hl-3">chainInfo</span><span class="hl-0">: </span><span class="hl-3">RegistryChainInfo</span><span class="hl-0">): </span><span class="hl-5">Promise</span><span class="hl-0">&lt;</span><span class="hl-3">string</span><span class="hl-0">&gt;</span>
+</code></pre>
+<p>This function filters through and fetches an active RPC endpoint from the provided chainInfo.</p>
+
+<a href="#getactiverpcfromchainname" id="getactiverpcfromchainname" style="color: inherit; text-decoration: none;">
+  <h3>getActiveRpcFromChainName</h3>
+</a>
+<pre><code class="language-ts"><span class="hl-4">getActiveRpcFromChainName</span><span class="hl-0">(</span><span class="hl-3">chainName</span><span class="hl-0">: </span><span class="hl-3">string</span><span class="hl-0">, </span><span class="hl-3">chainNetwork</span><span class="hl-0">?: </span><span class="hl-3">ChainNetwork</span><span class="hl-0">): </span><span class="hl-5">Promise</span><span class="hl-0">&lt;</span><span class="hl-3">string</span><span class="hl-0">&gt;</span>
+</code></pre>
+<p>This function fetches an active RPC endpoint for the provided chainName and chainNetwork. If chainNetwork is not provided, it defaults to mainnet.</p>
+
+<a href="#getchainexplorer" id="getchainexplorer" style="color: inherit; text-decoration: none;">
+  <h3>getChainExplorer</h3>
+</a>
+<pre><code class="language-ts"><span class="hl-4">getChainExplorer</span><span class="hl-0">(</span><span class="hl-3">chainName</span><span class="hl-0">: </span><span class="hl-3">string</span><span class="hl-0">, </span><span class="hl-3">chainNetwork</span><span class="hl-0">: </span><span class="hl-3">ChainNetwork</span><span class="hl-0">, </span><span class="hl-3">chainExplorers</span><span class="hl-0">?: </span><span class="hl-3">ChainExplorer</span><span class="hl-0">[]): </span><span class="hl-3">KeplrChainExplorer</span><span class="hl-0"> | </span><span class="hl-6">undefined</span>
+</code></pre>
+<p>This function fetches the tx explorer info for the provided chainName, chainNetwork and chainExplorers.</p>
+
+<a href="#getchainexplorerasync" id="getchainexplorerasync" style="color: inherit; text-decoration: none;">
+  <h3>getChainExplorerAsync</h3>
+</a>
+<pre><code class="language-ts"><span class="hl-4">getChainExplorerAsync</span><span class="hl-0">(</span><span class="hl-3">chainName</span><span class="hl-0">: </span><span class="hl-3">string</span><span class="hl-0">, </span><span class="hl-3">chainNetwork</span><span class="hl-0">: </span><span class="hl-3">ChainNetwork</span><span class="hl-0">): </span><span class="hl-5">Promise</span><span class="hl-0">&lt;</span><span class="hl-3">KeplrChainExplorer</span><span class="hl-0"> | </span><span class="hl-6">undefined</span><span class="hl-0">&gt;</span>
+</code></pre>
+<p>This function fetches the tx explorer info for the provided chainName and chainNetwork via the Cosmos Chain Registry.</p>
+
+<a href="#getkeplrchaininfofromregistrychaininfo" id="getkeplrchaininfofromregistrychaininfo" style="color: inherit; text-decoration: none;">
+  <h3>getKeplrChainInfoFromRegistryChainInfo</h3>
+</a>
+<pre><code class="language-ts"><span class="hl-4">getKeplrChainInfoFromRegistryChainInfo</span><span class="hl-0">(</span><span class="hl-3">chainInfo</span><span class="hl-0">: </span><span class="hl-3">RegistryChainInfo</span><span class="hl-0">): </span><span class="hl-5">Promise</span><span class="hl-0">&lt;</span><span class="hl-3">KeplrChainInfo</span><span class="hl-0">&gt;</span>
+</code></pre>
+<p>This function fetches the keplr chain info for the provided chainInfo.</p>
+
+<a href="#getkeplrchaininfo" id="getkeplrchaininfo" style="color: inherit; text-decoration: none;">
+  <h3>getKeplrChainInfo</h3>
+</a>
+<pre><code class="language-ts"><span class="hl-4">getKeplrChainInfo</span><span class="hl-0">(</span><span class="hl-3">chainNameOrId</span><span class="hl-0">: </span><span class="hl-3">string</span><span class="hl-0">, </span><span class="hl-3">chainNetwork</span><span class="hl-0">: </span><span class="hl-3">ChainNetwork</span><span class="hl-0"> = </span><span class="hl-7">MAINNET</span><span class="hl-0">, ): </span><span class="hl-5">Promise</span><span class="hl-0">&lt;</span><span class="hl-3">KeplrChainInfo</span><span class="hl-0">&gt;</span>
+</code></pre>
+<p>This function fetches the keplr chain info for the provided chain id or the chain name-and-network.</p>
+
+<a href="#📱-example" id="📱-example" style="color: inherit; text-decoration: none;">
+  <h2>📱 Example</h2>
+</a>
+<pre><code class="language-ts"><span class="hl-2">import</span><span class="hl-0"> { </span><span class="hl-3">getKeplrChainInfo</span><span class="hl-0"> } </span><span class="hl-2">from</span><span class="hl-0"> </span><span class="hl-1">&#39;@ixo/cosmos-chain-resolver&#39;</span><span class="hl-0">;</span><br/><br/><span class="hl-8">// fetch chain info via chain id</span><br/><span class="hl-6">const</span><span class="hl-0"> </span><span class="hl-7">ixoKeplrChainInfo</span><span class="hl-0"> = </span><span class="hl-2">await</span><span class="hl-0"> </span><span class="hl-4">getKeplrChainInfo</span><span class="hl-0">(</span><span class="hl-1">&#39;ixo-5&#39;</span><span class="hl-0">);</span><br/><br/><span class="hl-8">// fetch chain info via chain name and network</span><br/><span class="hl-6">const</span><span class="hl-0"> </span><span class="hl-7">ixoTestnetKeplrChainInfo</span><span class="hl-0"> = </span><span class="hl-2">await</span><span class="hl-0"> </span><span class="hl-4">getKeplrChainInfo</span><span class="hl-0">(</span><span class="hl-1">&#39;impacthub&#39;</span><span class="hl-0">, </span><span class="hl-1">&#39;testnet&#39;</span><span class="hl-0">);</span>
+</code></pre>
+<pre><code class="language-ts"><span class="hl-2">import</span><span class="hl-0"> { </span><span class="hl-3">getRegistryChainInfo</span><span class="hl-0">, </span><span class="hl-3">getKeplrChainInfoFromRegistryChainInfo</span><span class="hl-0"> } </span><span class="hl-2">from</span><span class="hl-0"> </span><span class="hl-1">&#39;@ixo/cosmos-chain-resolver&#39;</span><span class="hl-0">;</span><br/><br/><span class="hl-8">// fetch chain info via chain id</span><br/><span class="hl-6">const</span><span class="hl-0"> </span><span class="hl-7">ixoRegistryChainInfo</span><span class="hl-0"> = </span><span class="hl-2">await</span><span class="hl-0"> </span><span class="hl-4">getRegistryChainInfo</span><span class="hl-0">(</span><span class="hl-1">&#39;impacthub&#39;</span><span class="hl-0">, </span><span class="hl-1">&#39;mainnet&#39;</span><span class="hl-0">);</span><br/><br/><span class="hl-8">// fetch chain info via chain name and network</span><br/><span class="hl-6">const</span><span class="hl-0"> </span><span class="hl-7">ixoKeplrChainInfo</span><span class="hl-0"> = </span><span class="hl-2">await</span><span class="hl-0"> </span><span class="hl-4">getKeplrChainInfoFromRegistryChainInfo</span><span class="hl-0">(</span><span class="hl-3">ixoRegistryChainInfo</span><span class="hl-0">);</span>
+</code></pre>
+
+<a href="#📃-license" id="📃-license" style="color: inherit; text-decoration: none;">
+  <h2>📃 License</h2>
+</a>
+<p>This SDK is licensed under the Apache 2 License. See the <a href="/LICENSE">LICENSE</a> file for more information.</p>
 </div></div>
 <div class="col-4 col-menu menu-sticky-wrap menu-highlight">
 <div class="tsd-navigation settings">
@@ -36,7 +131,7 @@
 <h3><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M4.93896 8.531L12 15.591L19.061 8.531L16.939 6.409L12 11.349L7.06098 6.409L4.93896 8.531Z" fill="var(--color-text)"></path></svg> Modules</h3></summary>
 <div class="tsd-accordion-details">
 <ul>
-<li class="current selected"><a href="modules.html">jambo-<wbr/>chain-<wbr/>sdk</a>
+<li class="current selected"><a href="modules.html">@ixo/cosmos-<wbr/>chain-<wbr/>resolver</a>
 <ul></ul></li></ul></div></details></nav>
 <nav class="tsd-navigation secondary menu-sticky">
 <ul>

@@ -33,7 +33,3 @@ export declare const getKeplrChainInfoFromRegistryChainInfo: (chainInfo: Registr
  * @param chainNetwork 'mainnet' | 'testnet' | 'devnet' - defaults to mainnet
  */
 export declare const getKeplrChainInfo: (chainNameOrId: string, chainNetwork?: ChainNetwork) => Promise<KeplrChainInfo>;
-/**
- * Update the chain id - keplr chain name constants
- * Run script frequently to stay up to date
- */

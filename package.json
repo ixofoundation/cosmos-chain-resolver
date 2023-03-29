@@ -1,7 +1,10 @@
 {
-	"name": "@ixo/jambo-chain-sdk",
+	"name": "@ixo/cosmos-chain-resolver",
 	"version": "0.0.1",
-	"description": "A mini sdk to fetch and filter chain information",
+	"description": "An SDK to fetch and filter chain information",
+	"author": "ixo",
+	"homepage": "https://github.com/ixofoundation/cosmos-chain-resolver#readme",
+	"license": "SEE LICENSE IN LICENSE",
 	"main": "main/index.js",
 	"module": "module/index.js",
 	"typings": "types/index.d.ts",
@@ -24,8 +27,22 @@
 		"prepare": "npm run build",
 		"lint": "eslint src --fix"
 	},
-	"author": "ixo",
-	"license": "SEE LICENSE IN LICENSE",
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ixofoundation/cosmos-chain-resolver"
+	},
+	"keywords": [
+		"cosmos",
+		"chain",
+		"ixo",
+		"keplr"
+	],
+	"bugs": {
+		"url": "https://github.com/ixofoundation/cosmos-chain-resolver/issues"
+	},
 	"devDependencies": {
 		"@babel/cli": "7.19.3",
 		"@babel/core": "7.19.3",
