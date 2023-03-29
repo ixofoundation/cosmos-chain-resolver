@@ -8,7 +8,7 @@
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
 
 <p align="center">
-  <img  src="assets/images/github_jambo_chain_SDK.png"/>
+  <img  src="assets/images/cosmos_chain_resolver.png"/>
 </p>
 
 <br />
