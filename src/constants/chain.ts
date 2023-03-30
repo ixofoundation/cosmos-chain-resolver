@@ -282,7 +282,7 @@ export const localTestnetRegistry = {
 		network_type: 'testnet',
 		website: 'https://www.ixo.world/',
 		pretty_name: 'ixo Testnet',
-		chain_id: 'pandora-7',
+		chain_id: 'pandora-8',
 		bech32_prefix: 'ixo',
 		key_algos: ['secp256k1', 'ed25519'],
 		slip44: 118,
