@@ -33,3 +33,10 @@ export declare const getKeplrChainInfoFromRegistryChainInfo: (chainInfo: Registr
  * @param chainNetwork 'mainnet' | 'testnet' | 'devnet' - defaults to mainnet
  */
 export declare const getKeplrChainInfo: (chainNameOrId: string, chainNetwork?: ChainNetwork) => Promise<KeplrChainInfo>;
+/**
+ * Retrieves the chain name associated with the given address prefix.
+ * @param prefix The address prefix
+ * @returns The corresponding chain name
+ * @throws Error if the chain name for the prefix is not found
+ */
+export declare const getChainNameFromAddressPrefix: (prefix: string) => string;

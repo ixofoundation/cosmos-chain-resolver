@@ -1401,3 +1401,4 @@ export declare const devnetChainExplorers: {
         account_page: string;
     }[];
 };
+export declare const addressPrefixToRegistryChainName: Record<string, string>;
