@@ -20,6 +20,7 @@ import {
 	TESTNET,
 	DEVNET,
 	chainIdToKeplrChainName,
+	addressPrefixToRegistryChainName,
 } from './constants/chain';
 
 /** Fetch the chain info via the chain name and chain network
@@ -252,3 +253,17 @@ export const getKeplrChainInfo = async (
 		txExplorer: explorer,
 	};
 };
+
+/**
+ * Retrieves the chain name associated with the given address prefix.
+ * @param prefix The address prefix
+ * @returns The corresponding chain name
+ * @throws Error if the chain name for the prefix is not found
+ */
+export const getChainNameFromAddressPrefix = (prefix: string): string => {
+	const chainName = addressPrefixToRegistryChainName[prefix];
+	if (!chainName) {
+		throw new Error(`Unable to get the chain name for prefix: ${prefix}`);
+	}
+	return chainName;
+}
