@@ -2706,6 +2706,7 @@ export const addressPrefixToRegistryChainName: Record<string, string> = {
 	medas: 'medasdigital',
 	meme: 'meme',
 	n: 'nyx',
+	noble: 'noble',
 	omniflix: 'omniflixhub',
 	osmo: 'osmosis',
 	persistence: 'persistence',
@@ -2726,4 +2727,4 @@ export const addressPrefixToRegistryChainName: Record<string, string> = {
 	tgrade: 'tgrade',
 	umee: 'umee',
 	und: 'unification',
-}
+};
