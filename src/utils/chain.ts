@@ -9,9 +9,15 @@ import {
 import { KeplrChainInfo, RegistryChainInfo } from '../types/chain';
 
 export const fetchMainnetRegistryChainInfo = async (chainName: string): Promise<RegistryChainInfo> => {
-	const url = `https://proxy.atomscan.com/directory/${chainName}/chain.json`;
-	const response = await axios.get(url);
-	return response.data as RegistryChainInfo;
+	try {
+		const url = `https://registry.ping.pub/${chainName}/chain.json`;
+		const response = await axios.get(url);
+		return response.data as RegistryChainInfo;
+	} catch (error) {
+		const url = `https://proxy.atomscan.com/directory/${chainName}/chain.json`;
+		const response = await axios.get(url);
+		return response.data as RegistryChainInfo;
+	}
 };
 
 export const fetchTestnetRegistryChainInfo = async (chainName: string): Promise<RegistryChainInfo> => {

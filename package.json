@@ -1,6 +1,6 @@
 {
 	"name": "@ixo/cosmos-chain-resolver",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"description": "An SDK to fetch and filter chain information",
 	"author": "ixo",
 	"homepage": "https://github.com/ixofoundation/cosmos-chain-resolver#readme",
